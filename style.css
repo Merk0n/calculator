@@ -53,20 +53,33 @@ body {
   border: none;
   border-radius: 50%;
   font-size: 42px;
+  text-decoration: none;
 }
 
 .grey-color {
   background-color: #adb5bd;
+}
+.grey-color:hover {
+  background-color: #ced4da;
+  transition: 0.3s;
 }
 
 .black-color {
   background-color: #343a40;
   color: white;
 }
+.black-color:hover {
+  background-color: #495057;
+  transition: 0.3s;
+}
 
 .orange-color {
   background-color: #fab005;
   color: white;
+}
+.orange-color:hover {
+  background-color: #fcc419;
+  transition: 0.3s;
 }
 
 .zero {
@@ -76,6 +89,10 @@ body {
 }
 
 footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 32px;
   font-size: 22px;
   text-align: center;
 }
