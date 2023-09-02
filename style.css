@@ -19,19 +19,14 @@ body {
 
 .display {
   display: flex;
-  flex-direction: column;
   padding: 100px 25px 25px 25px;
   text-align: right;
   font-size: 64px;
   background-color: black;
   color: white;
   border-radius: 15px 15px 0 0;
-}
-
-.display-calc {
-  margin-bottom: 15px;
-  font-size: 32px;
-  font-weight: 300;
+  border: none;
+  justify-content: flex-end;
 }
 
 .btns-grid {
